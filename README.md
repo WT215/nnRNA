@@ -27,7 +27,7 @@ import applytodata as app
 store_path="~/nnout/"
 
 #load toy example 
-df = pd.read_csv("~/sim500run2"+"/"+"Dat_down_2.csv")
+df = pd.read_csv("~/sim500run2"+"/"+"toyexample.csv")
 
 
 
