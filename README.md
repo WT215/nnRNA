@@ -1,3 +1,6 @@
+# Original repository
+Credit to https://github.com/ASoelvsten/scRNA.
+
 # How to run nnRNA
 
 ```python
