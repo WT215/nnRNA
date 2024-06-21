@@ -55,4 +55,4 @@ file_name='sim500run2'
 dfnn_c=nnRNA_wrapper.nnRNA_wrapper(scRNA=scRNA_input,Gname=Gname_input, file_name=file_name,store_path=store_path,allele_double=False,repeats=1,threshold_gc=[5000,2,100],prior="Fano",inputbeta_vec=inputbeta)
 
 ```
-Output will be in your output directory with name `NN_${file_name}.csv`.
+Output will be in your output directory with name `NN_${file_name}.csv`. The first columns should be index or gene symboles. After that, the 2nd to 5th columns correspond to log10 for kon, koff, ksyn and  burst size respectively. The remaining columns are the corresponding credibility intervals
